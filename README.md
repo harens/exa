@@ -153,6 +153,8 @@ If you’re using [Homebrew](https://brew.sh/) on macOS, install the [`exa`](htt
 If you're using [MacPorts](https://www.macports.org/) on macOS, install the [`exa`](https://ports.macports.org/port/exa/summary) port.
 
     $ port install exa
+    
+By default, this builds the man pages and adds git support. To disable this, run `port install exa -doc` or `-git` (or both) respectively.
 
 ### Nix
 
